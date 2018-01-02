@@ -1,0 +1,34 @@
+{
+  "name": "deef-plugin-build-common-component",
+  "version": "1.0.0",
+  "description": "用于封装大型公共业务组件",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiweixia233/deef-plugin-build-common-component.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "deef"
+  ],
+  "author": "huax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiweixia233/deef-plugin-build-common-component/issues"
+  },
+  "homepage": "https://github.com/jiweixia233/deef-plugin-build-common-component#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "invariant": "^2.2.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

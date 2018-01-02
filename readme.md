@@ -1,7 +1,8 @@
 # deef插件：build-common-component
 用于封装大型公共业务组件
 
-本插件在model中加入prefix字段，数据的读写都自动代理到相应prefix中，使用起来更简单，一个model即可解决所有问题
+本插件在model中加入prefix字段，数据的读写都自动代理到相应prefix中，使用起来更简单，一个model即可解决deef(redux)中
+公共业务组件中model会产生相互干扰的情况
 
 
 ## 特点
