@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "react",
+    [
+      "env", {
+      "targets": {
+        "chrome": 45,
+        "ie": 10
+      },
+      "exclude": ["transform-regenerator"]
+    }
+    ]
+  ],
+  "plugins": [
+    "transform-object-rest-spread"
+  ]
+}
